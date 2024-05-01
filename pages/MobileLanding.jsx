@@ -531,7 +531,7 @@ const MobileLanding = () => {
                                             <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
                                                 <Marquee speed={50} delay={1} play={delayLoop10} onCycleComplete={() => setDelayedLoop10()}>
                                                     <span>
-                                                        &nbsp;A Regression ML model predicting an individual's competitiveness, enabling personalized insights for career development and organizational planning, enhancing decision-making based on data-driven analysis.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp;A Regression ML model predicting an individual&apos;s competitiveness, enabling personalized insights for career development and organizational planning, enhancing decision-making based on data-driven analysis.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
                                                     </span>
                                                 </Marquee>
                                             </div>
@@ -741,7 +741,7 @@ const MobileLanding = () => {
                         </div>
                         <div className='font-[CBold] p-[1rem] pt-0 text-[1.5rem] h-[30vh] overflow-scroll'>
                             <span>
-                                Hey there! I'm Devrajsinh Gohil, and I'm passionate about all things tech. You can call me the Code Maestro because I love delving into the intricate world of technology and crafting solutions that make a difference. Whether it's developing web applications or mobile platforms, I'm always eager to explore new ideas and bring them to life through coding. I take great pride in creating elegant and efficient solutions that not only solve problems but also inspire innovation. My website is a showcase of my dreams and digital creations, where every line of code tells a story of creativity and magic. I believe that the synergy of code and creativity can lead to incredible outcomes, and I'm excited to welcome you to my world where innovation is the key. So, let's join forces and shine together in the realm of code and creativity!
+                                Hey there! I&apos;m Devrajsinh Gohil, and I&apos;m passionate about all things tech. You can call me the Code Maestro because I love delving into the intricate world of technology and crafting solutions that make a difference. Whether it's developing web applications or mobile platforms, always eager to explore new ideas and bring them to life through coding. I take great pride in creating elegant and efficient solutions that not only solve problems but also inspire innovation. My website is a showcase of my dreams and digital creations, where every line of code tells a story of creativity and magic. I believe that the synergy of code and creativity can lead to incredible outcomes, and I welcome you to my world where innovation is the key. So, let&apos;s join forces and shine together in the realm of code and creativity!
                             </span>
                         </div>
                     </div>
@@ -792,7 +792,7 @@ const MobileLanding = () => {
                             </li>
                             <li className='flex items-center justify-start gap-[1rem]'>
                                 <span className=''><FaLinkedinIn /></span>
-                                <span className=' cursor-pointer text-[1rem]'><a href="https://www.linkedin.com/in/devrajsinh/" target='_blank'>let's connect</a></span>
+                                <span className=' cursor-pointer text-[1rem]'><a href="https://www.linkedin.com/in/devrajsinh/" target='_blank'>let&apos;s connect</a></span>
                             </li>
                             <li className='flex items-center justify-start gap-[1rem]'>
                                 <span><ImGithub /></span>

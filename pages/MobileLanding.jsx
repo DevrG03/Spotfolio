@@ -467,7 +467,7 @@ const MobileLanding = () => {
                                         <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
 
                                             <span>
-                                                Mile Stone: Beta
+                                                Milestone: Beta
                                             </span>
                                         </div>
                                     </div>

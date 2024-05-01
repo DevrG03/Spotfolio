@@ -297,8 +297,8 @@ const MobileLanding = () => {
                                     </div>
                                     <a href="https://drive.google.com/file/d/1k11M8GW7oYdy3g4Bo0jOHEwQCSg-Nwqi/view" target='_blank'><PiArrowCircleDownBold className='text-[1.65rem]' /></a>
                                     <GrShareOption className='text-[1.4rem]' onClick={handleCopy} />
-                                    <ToastContainer />
                                     <BsThreeDotsVertical className='text-[1.7rem]' onClick={toggleDrawer(true)} />
+                                    <ToastContainer />
                                 </div>
                                 <div className='flex items-center justify-end gap-2'>
                                     <div>
@@ -726,8 +726,8 @@ const MobileLanding = () => {
                             <TbDevices2 className='text-[1.5rem]' />
                         </span>
                         <span className='flex items-center justify-between gap-[1.5rem]'>
-                            <GrShareOption className='text-[1.4rem]' onClick={handleCopy} />
                             <ToastContainer />
+                            <GrShareOption className='text-[1.4rem]' onClick={handleCopy} />
                             <HiOutlineQueueList className='text-[1.5rem]' />
                         </span>
                     </div>

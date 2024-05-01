@@ -1,9 +1,10 @@
 import React from 'react';
+import CircularProgress from '@mui/material/CircularProgress';
 
 const Loader = () => {
     return (
         <div className="flex justify-center items-center h-[90vh]">
-            <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-white"></div>
+            <CircularProgress color="inherit" />
         </div>
     );
 };

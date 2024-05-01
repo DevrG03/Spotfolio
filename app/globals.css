@@ -151,3 +151,7 @@ body {
 .imgshd {
   box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
 }
+
+.MuiCircularProgress-svg{
+  color: #b1b1b1dd;
+}

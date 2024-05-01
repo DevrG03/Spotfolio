@@ -29,7 +29,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // Share Button --------------------------------
 
-const message = 'Check out this amazing spotfolio!: devrajsinhgohil.tech';
+const message = 'Check out this amazing spotfolio!: spotfolio.vercel.app';
 
 const handleCopy = () => {
     clipboardCopy(message)

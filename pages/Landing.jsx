@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import MobileLanding from './MobileLanding';
 import Loader from '@/components/Loader';
+import DesktopLanding from './DesktopLanding';
 
 const Landing = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -41,12 +42,7 @@ const Landing = () => {
     if (isMobile) {
         return <MobileLanding />;
     } else {
-        return (
-            <div className='h-[100vh] text-white font-[CBold] flex items-center justify-center text-[2.5rem] flex-col'>
-                <span>Desktop Site under Construction 🛠️</span>
-                <span className='text-[2rem] font-[CBook]'>Use Mobile 📲</span>
-            </div>
-        );
+        return <DesktopLanding />;
     }
 };
 

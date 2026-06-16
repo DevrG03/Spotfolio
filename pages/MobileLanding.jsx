@@ -321,7 +321,9 @@ const MobileLanding = () => {
                             <hr className='w-full pb-4 text-[#b1b1b1dd]' />
                             <div className='w-full flex flex-col justify-center items-center gap-4'>
                                 <div className='w-full flex items-center justify-start gap-4'>
-                                    <Image src="/gtu.png" alt="Landing Image" className='object-contain h-[45px] w-[45px]' width={250} height={250} priority />
+                                    <div className='h-[45px] w-[45px] bg-white rounded-sm overflow-hidden flex items-center justify-center shrink-0'>
+                                        <Image src="/gtu.png" alt="Landing Image" className='object-contain h-[45px] w-[45px] p-1' width={250} height={250} priority />
+                                    </div>
                                     <div className='flex flex-col gap-1 w-full'>
                                         <span>B.E. Computer Engineering</span>
                                         <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
@@ -333,20 +335,7 @@ const MobileLanding = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='w-full flex items-center justify-start gap-4'>
-                                    <Image src="/iitm.png" alt="Landing Image" className='object-contain h-[45px] w-[45px]' width={250} height={250} priority />
-                                    <div className='flex flex-col gap-1 w-full'>
-                                        <span>B.S. Data Science and Applications</span>
-                                        <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
-                                            <Marquee speed={30} delay={1} play={delayLoop5} onCycleComplete={() => setDelayedLoop5()}>
-                                                <span>
-                                                    &nbsp; CGPA: 8.0/10 , 2023 - 2027, Indian Institute of Technology Madras, Chennai &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                                                </span>
-                                            </Marquee>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                            </div>
                         </section>
                         <section className='flex flex-col font-[CBook] pt-[1.8rem]'>
                             <span>Tech Stack</span>
@@ -404,6 +393,17 @@ const MobileLanding = () => {
                             <span>Experience</span>
                             <hr className='w-full pb-4 text-[#b1b1b1dd]' />
                             <div className='w-full flex flex-col justify-center items-center gap-4'>
+                                <div className='w-full flex items-center justify-start gap-4'>
+                                    <div className='h-[45px] w-[45px] bg-white rounded-sm overflow-hidden flex items-center justify-center shrink-0'>
+                                        <Image src="/jsw.png" alt="JSW Steel" className='object-contain h-[45px] w-[45px] p-1' width={250} height={250} priority />
+                                    </div>
+                                    <div className='flex flex-col gap-1 w-full'>
+                                        <span>AI Intern</span>
+                                        <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
+                                            <span>JSW Steel (Jan 2025 - Apr 2025)</span>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className='w-full flex items-center justify-start gap-4'>
                                     <Image src="/qs.jpg" alt="Landing Image" className='object-contain h-[45px] w-[45px]' width={250} height={250} priority />
                                     <div className='flex flex-col gap-1 w-full'>

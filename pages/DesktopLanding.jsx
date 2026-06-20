@@ -437,13 +437,18 @@ const DesktopLanding = () => {
                 <h2 className="font-[CBold] text-[1.35rem] mb-4">Achievements</h2>
                 <div className="flex flex-col">
                   {[
-                    { num: 1, img: '/gt.jpg', title: 'GATE DA 2024',                   sub: 'AIR 1519 · Government of India' },
-                    { num: 2, img: '/gt.jpg', title: 'Smart India Hackathon 2024',     sub: 'Finalist · Government of India' },
-                    { num: 3, img: '/tk.jpg', title: 'Tark Codegenie 2024',           sub: 'Winner' },
-                  ].map(({ num, img, title, sub }) => (
+                    { num: 1, img: '/gt.jpg',  title: 'GATE DA 2024',                sub: 'AIR 1519 · Government of India' },
+                    { num: 2, img: '/sih.png', title: 'Smart India Hackathon 2024',  sub: 'Finalist · Government of India', contain: true },
+                    { num: 3, img: '/tk.jpg',  title: 'Tark Codegenie 2024',         sub: 'Winner' },
+                  ].map(({ num, img, title, sub, contain }) => (
                     <div key={num} className="flex items-center gap-4 p-3 rounded-md hover:bg-[#1a1a1a] transition-colors group cursor-default">
                       <span className="text-[#b3b3b3] text-[0.88rem] w-5 shrink-0 group-hover:opacity-0">{num}</span>
-                      <Image src={img} alt={title} width={44} height={44} className="rounded-sm object-contain w-[44px] h-[44px] shrink-0" />
+                      {contain
+                        ? <div className="w-[44px] h-[44px] rounded-sm bg-white flex items-center justify-center shrink-0 overflow-hidden">
+                            <Image src={img} alt={title} width={44} height={44} className="object-contain w-full h-full p-[3px]" />
+                          </div>
+                        : <Image src={img} alt={title} width={44} height={44} className="rounded-sm object-contain w-[44px] h-[44px] shrink-0" />
+                      }
                       <div className="flex flex-col min-w-0">
                         <span className="font-[CMedium] text-[0.9rem]">{title}</span>
                         <span className="text-[#b3b3b3] text-[0.77rem] font-[CLight]">{sub}</span>

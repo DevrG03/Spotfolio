@@ -322,7 +322,22 @@ const MobileLanding = () => {
                             <div className='w-full flex flex-col justify-center items-center gap-4'>
                                 <div className='w-full flex items-center justify-start gap-4'>
                                     <div className='h-[45px] w-[45px] bg-white rounded-sm overflow-hidden flex items-center justify-center shrink-0'>
-                                        <Image src="/gtu.png" alt="Landing Image" className='object-contain h-[45px] w-[45px] p-1' width={250} height={250} priority />
+                                        <Image src="/dau.jpg" alt="DAU" className='object-contain h-[45px] w-[45px] p-1' width={250} height={250} priority />
+                                    </div>
+                                    <div className='flex flex-col gap-1 w-full'>
+                                        <span>M.Tech – ICT</span>
+                                        <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
+                                            <Marquee speed={30} delay={1} play={delayLoop5} onCycleComplete={() => setDelayedLoop5()}>
+                                                <span>
+                                                    &nbsp; CPI: 8.75 · 2025 – Present · Dhirubhai Ambani University, Gandhinagar &nbsp; &nbsp; &nbsp; &nbsp;
+                                                </span>
+                                            </Marquee>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='w-full flex items-center justify-start gap-4'>
+                                    <div className='h-[45px] w-[45px] bg-white rounded-sm overflow-hidden flex items-center justify-center shrink-0'>
+                                        <Image src="/gtu.png" alt="GTU" className='object-contain h-[45px] w-[45px] p-1' width={250} height={250} priority />
                                     </div>
                                     <div className='flex flex-col gap-1 w-full'>
                                         <span>B.E. Computer Engineering</span>
@@ -335,7 +350,7 @@ const MobileLanding = () => {
                                         </div>
                                     </div>
                                 </div>
-                                            </div>
+                            </div>
                         </section>
                         <section className='flex flex-col font-[CBook] pt-[1.8rem]'>
                             <span>Tech Stack</span>
@@ -575,7 +590,7 @@ const MobileLanding = () => {
                             <hr className='w-full pb-4 text-[#b1b1b1dd]' />
                             <div className='w-full flex flex-col justify-center items-center gap-4'>
                                 <div className='w-full flex items-center justify-start gap-4'>
-                                    <Image src="/gt.jpg" alt="Landing Image" className='object-contain h-[45px] w-[45px]' width={250} height={250} priority />
+                                    <Image src="/gt.jpg" alt="GATE" className='object-contain h-[45px] w-[45px]' width={250} height={250} priority />
                                     <div className='flex flex-col gap-1 w-full'>
                                         <span>GATE - 2024</span>
                                         <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
@@ -586,7 +601,20 @@ const MobileLanding = () => {
                                     </div>
                                 </div>
                                 <div className='w-full flex items-center justify-start gap-4'>
-                                    <Image src="/tk.jpg" alt="Landing Image" className='object-contain h-[45px] w-[45px]' width={250} height={250} priority />
+                                    <div className='bg-white rounded-[4px] flex items-center justify-center h-[45px] w-[45px] shrink-0 overflow-hidden'>
+                                        <Image src="/sih.png" alt="Smart India Hackathon" className='object-contain h-full w-full p-[3px]' width={250} height={250} priority />
+                                    </div>
+                                    <div className='flex flex-col gap-1 w-full'>
+                                        <span>Smart India Hackathon 2024</span>
+                                        <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
+                                            <span>
+                                                Finalist · Government of India
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='w-full flex items-center justify-start gap-4'>
+                                    <Image src="/tk.jpg" alt="Tark Codegenie" className='object-contain h-[45px] w-[45px]' width={250} height={250} priority />
                                     <div className='flex flex-col gap-1'>
                                         <span>Tark Codegenie 2024</span>
                                         <div className=' text-[#b1b1b1dd] font-[CLight] text-[0.76rem] font-[600]'>
